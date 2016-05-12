@@ -66,9 +66,8 @@
 /datum/language/sign
 	name = "Sign Language"
 	desc = "A series of gestures and symbols in place of verbal communication."
-	speech_verb = list("signs", "gestures")
-	signlang_verb = list("moves their hands about.", "waves their hands around.")
-	whisper_verb = list("discreetly signs", "discreetly gestures")
+	speech_verb = "signs"
+	signlang_verb = list("signs")
 	colour = "sign_font"
 	flags = SIGNLANG|NO_STUTTER
 	key = "s"
